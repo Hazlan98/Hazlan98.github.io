@@ -87,7 +87,7 @@
             <aside class="page-sidebar">
                 <div class="page-logo">
                     <a href="#" class="page-logo-link press-scale-down d-flex align-items-center position-relative" data-toggle="modal" data-target="#modal-shortcut">
-                        <img src="img/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
+                        <img src="img/logo.png" alt="My Portfolio@HazlanSBI" aria-roledescription="logo">
                         <span class="page-logo-text mr-1">Hazlan Portfolio</span>
                         <span class="position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2"></span>
                         <i class="fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300"></i>
@@ -229,8 +229,8 @@
                     <!-- we need this logo when user switches to nav-function-top -->
                     <div class="page-logo">
                         <a href="#" class="page-logo-link press-scale-down d-flex align-items-center position-relative" data-toggle="modal" data-target="#modal-shortcut">
-                            <img src="img/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
-                            <span class="page-logo-text mr-1">SmartAdmin WebApp</span>
+                            <img src="img/logo.png" alt="My Portfolio@HazlanSBI" aria-roledescription="logo">
+                            <span class="page-logo-text mr-1">My Portfolio@HazlanSBI</span>
                             <span class="position-absolute text-white opacity-50 small pos-top pos-right mr-2 mt-n2"></span>
                             <i class="fal fa-angle-down d-inline-block ml-1 fs-lg color-primary-300"></i>
                         </a>
@@ -272,12 +272,6 @@
                         <div class="hidden-sm-up">
                             <a href="#" class="header-icon" data-action="toggle" data-class="mobile-search-on" data-focus="search-field" title="Search">
                                 <i class="fal fa-search"></i>
-                            </a>
-                        </div>
-                        <!-- app settings -->
-                        <div class="hidden-md-down">
-                            <a href="#" class="header-icon" data-toggle="modal" data-target=".js-modal-settings">
-                                <i class="fal fa-cog"></i>
                             </a>
                         </div>
                         <!-- app shortcuts -->
@@ -449,7 +443,7 @@
                         </div>
                         <!-- app user menu -->
                         <div>
-                            <a href="#" data-toggle="dropdown" title="drlantern@gotbootstrap.com" class="header-icon d-flex align-items-center justify-content-center ml-2">
+                            <a href="#" data-toggle="dropdown" title="m.hazlan@upsi.edu.my" class="header-icon d-flex align-items-center justify-content-center ml-2">
                                 <img src="img/demo/avatars/hazlan.jpg" class="profile-image rounded-circle" alt="Muhammad Hazlan Shah Bin Idris">
                                 <!-- you can also add username next to the avatar with the codes below:
 									<span class="ml-1 mr-1 text-truncate text-truncate-header hidden-xs-down">Me</span>
@@ -463,7 +457,7 @@
                                         </span>
                                         <div class="info-card-text">
                                             <div class="fs-lg text-truncate text-truncate-lg">Muhammad Hazlan Shah Bin Idris</div>
-                                            <span class="text-truncate text-truncate-md opacity-80">drlantern@gotbootstrap.com</span>
+                                            <span class="text-truncate text-truncate-md opacity-80">m.hazlan@upsi.edu.my</span>
                                         </div>
                                     </div>
                                 </div>
@@ -496,11 +490,6 @@
                                         <a href="#?lang=ch" class="dropdown-item" data-action="lang" data-lang="ch">中文</a>
                                     </div>
                                 </div>
-                                <div class="dropdown-divider m-0"></div>
-                                <a class="dropdown-item fw-500 pt-3 pb-3" href="page_login.html">
-                                    <span data-i18n="drpdwn.page-logout">Logout</span>
-                                    <span class="float-right fw-n">&commat;codexlantern</span>
-                                </a>
                             </div>
                         </div>
                     </div>
