@@ -312,7 +312,7 @@
                                 <div class="panel-content">
                                 <!-- datatable start -->
                                 <!-- Degree Certificate -->
-                                    <table id="dt-basic-example" class="table table-bordered table-hover table-striped w-100">
+                                    <table id="dt-degree-cert" class="table table-bordered table-hover table-striped w-100">
                                                 <thead>
                                                     <tr>
                                                         <th>No</th>
@@ -359,7 +359,7 @@
                                     </table>
                                             
                                     <!-- Diploma Certificate -->
-                                    <table id="dt-basic-example" class="table table-bordered table-hover table-striped w-100">
+                                    <table id="dt-dipolma-cert" class="table table-bordered table-hover table-striped w-100">
                                         <thead>
                                             <tr>
                                                 <th>No</th>
@@ -552,7 +552,7 @@
                                     </table>
                                     
                                     <!-- School Certificate -->
-                                    <table id="dt-basic-example" class="table table-bordered table-hover table-striped w-100">
+                                    <table id="dt-school-cert" class="table table-bordered table-hover table-striped w-100">
                                         <thead>
                                             <tr>
                                                 <th>No</th>
@@ -796,7 +796,25 @@
 }
         $(document).ready(function()
         {
-            $('#dt-basic-example').dataTable(
+            $('#dt-degree-cert').dataTable(
+            {
+                responsive: true,
+                pageLength: false,
+                scrollY: 300,
+                scrollCollapse: true,
+                scroller: true,
+                
+            });
+            $('#dt-diploma-cert').dataTable(
+            {
+                responsive: true,
+                pageLength: false,
+                scrollY: 300,
+                scrollCollapse: true,
+                scroller: true,
+                
+            });
+            $('#dt-school-cert').dataTable(
             {
                 responsive: true,
                 pageLength: false,
