@@ -1,0 +1,24 @@
+name: Update Permissions-Policy Header
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-headers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update Permissions-Policy Header
+        run: echo -e "Permissions-Policy: browsing-topics=(), join-ad-interest-group=(), run-ad-auction=(), attribution-reporting=(), from=~localhost, badfilter" >> _site/.nojekyll
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add _site/.nojekyll
+          git commit -m "Update Permissions-Policy Header"
+          git push
