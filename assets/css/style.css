@@ -1082,7 +1082,8 @@ color: rgb(58, 57, 67); }
 .project-category { margin-left: 10px; }
 
 .project-title {
-  color: var(--white-2);
+  /* color: var(--white-2); */
+  color: black;
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
@@ -1090,7 +1091,8 @@ color: rgb(58, 57, 67); }
 }
 
 .project-category {
-  color: var(--light-gray-70);
+  /* color: var(--light-gray-70); */
+  color:  hsl(35, 100%, 68%);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }

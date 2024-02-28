@@ -317,12 +317,19 @@
                 <!-- BEGIN Page Content -->
                 <!-- the #js-page-content id is needed for some plugins to initialize -->
                 <main id="js-page-content" role="main" class="page-content">
-                    <ol class="breadcrumb page-breadcrumb">
-                        <li class="breadcrumb-item"><a href="javascript:void(0);">My Portfolio</a></li>
-                        <li class="breadcrumb-item active">My Information</li>
-                        <li class="position-absolute pos-top pos-right d-none d-sm-block"><span class="js-get-date"></span></li>
-                    </ol>
 
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <!-- Contact Information -->
+                                <div id="panel-6" class="panel">
+                                <div class="panel-container show">
+                                <div class="panel-content">
+                                    <object id="docPreview" data="media/pdf/resume.pdf" type="application/pdf" style=" height: 850px; width: 100%; border: solid thin;"></object>
+                                </div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
                 </main>
                 <!-- this overlay is activated only when mobile menu is triggered -->
                 <div class="page-content-overlay" data-action="toggle" data-class="mobile-nav-on"></div> <!-- END Page Content -->
